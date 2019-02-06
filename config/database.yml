@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 10 } %>
+  database: shortener_dev
+  username: postgres
+  host: localhost
